@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emiralp Kayıkcı - Profesyonel CV</title>
+    <style>
+        /* CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Genel Stiller */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+
+        header h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* Navigasyon */
+        nav {
+            background: #35424a;
+            color: #ffffff;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            padding: 0;
+            list-style: none;
+            text-align: center;
+        }
+
+        nav li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            color: #e8491d;
+        }
+
+        /* Ana İçerik */
+        main {
+            padding: 20px 0;
+        }
+
+        section {
+            background: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #35424a;
+            margin-bottom: 15px;
+        }
+
+        /* Profil Resmi */
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: block;
+            object-fit: cover;
+        }
+
+        /* Yetenekler */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .skill {
+            background: #e8491d;
+            color: #fff;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+
+        /* İletişim Formu */
+        form {
+            display: grid;
+            gap: 10px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        button {
+            background: #35424a;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #e8491d;
+        }
+
+        /* Footer */
+        footer {
+            background: #35424a;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        /* Responsive Tasarım */
+        @media(max-width: 768px) {
+            .container {
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Emiralp Kayıkcı</h1>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#hakkimda">Hakkımda</a></li>
+                <li><a href="#deneyim">Deneyim</a></li>
+                <li><a href="#egitim">Eğitim</a></li>
+                <li><a href="#yetenekler">Yetenekler</a></li>
+                <li><a href="#iletisim">İletişim</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="hakkimda">
+            <img src="doktor ben.jpg" alt="Profil Resmi" class="profile-image">
+            <h2>Hakkımda</h2>
+            <p>Adım Emiralp Kayıkcı. 22 Ocak 2005 tarihinde doğdum. Oyun oynamayı severim. En yakın arkadaşım Kemal Mert Fırat.</p>
+        </section>
+
+        <section id="deneyim">
+            <h2>İş Deneyimi</h2>
+            <h3>Pozisyon - Şirket Adı</h3>
+            <p>Tarih Aralığı</p>
+            <ul>
+                <li>Bu pozisyondaki önemli başarılarınızı ve sorumluluklarınızı listeleyin.</li>
+                <li>Mümkün olduğunca spesifik ve ölçülebilir sonuçlar sunun.</li>
+            </ul>
+            <!-- Daha fazla iş deneyimi eklenebilir -->
+        </section>
+
+        <section id="egitim">
+            <h2>Eğitim</h2>
+            <h3>Derece - Okul Adı</h3>
+            <p>Mezuniyet Tarihi</p>
+            <p>İlgili kurslar, projeler veya başarılar hakkında kısa bir açıklama ekleyin.</p>
+            <!-- Daha fazla eğitim bilgisi eklenebilir -->
+        </section>
+
+        <section id="yetenekler">
+            <h2>Yetenekler</h2>
+            <div class="skills">
+                <span class="skill">Yetenek 1</span>
+                <span class="skill">Yetenek 2</span>
+                <span class="skill">Yetenek 3</span>
+                <span class="skill">Yetenek 4</span>
+                <!-- Daha fazla yetenek eklenebilir -->
+            </div>
+        </section>
+
+        <section id="iletisim">
+            <h2>İletişim</h2>
+            <form>
+                <input type="text" name="name" placeholder="Adınız" required>
+                <input type="email" name="email" placeholder="emiralpkayikci@gmail.com" required>
+                <textarea name="message" placeholder="Mesajınız" required></textarea>
+                <button type="submit">Gönder</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Emiralp Kayıkcı. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+</body>
+</html>
